@@ -1,0 +1,211 @@
+/******************************************
+	File Name: restaurant.css
+    Template Name: Matrox
+    Created By: TrendyTheme
+    Envato Profile: https://themeforest.net/user/trendytheme
+    Website: http://trendytheme.net
+    Version: 1.0
+    Support: http://trendytheme.net/support
+******************************************/
+
+/*Google Web Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+
+.section-title {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 30px;
+    font-weight: 900;
+}
+.section-intro {
+    font-family: 'Great Vibes', cursive;
+    font-size: 43px;
+    line-height: 30px;
+}
+
+
+
+/*button style*/
+.btn {
+    font-size: 14px;
+    background-color: #ff7800; /*brand primary color*/
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #ff7800;
+}
+
+.btn.white, 
+.btn.white:hover, 
+.btn.white:focus {
+    color: #ff7800;
+}
+
+
+/*link style*/
+a {
+    color: #ff7800;
+}
+a:focus,
+a:hover {
+    color: #db6803;
+}
+
+
+/*common form style*/
+input[type=text]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), 
+input[type=date]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), 
+input[type=tel]:focus:not([readonly]), 
+input[type=number]:focus:not([readonly]), 
+input[type=search]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ff7800;
+    box-shadow: 0 1px 0 0 #ff7800; 
+}
+
+input[type=text]:focus:not([readonly]) + label, 
+input[type=password]:focus:not([readonly]) + label, 
+input[type=email]:focus:not([readonly]) + label, 
+input[type=url]:focus:not([readonly]) + label, 
+input[type=time]:focus:not([readonly]) + label, 
+input[type=date]:focus:not([readonly]) + label, 
+input[type=datetime-local]:focus:not([readonly]) + label, 
+input[type=tel]:focus:not([readonly]) + label, 
+input[type=number]:focus:not([readonly]) + label, 
+input[type=search]:focus:not([readonly]) + label, 
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #ff7800 !important; 
+}
+
+
+
+
+/* ============= Color Presets ================ */
+.brand-color,
+.brand-icon,
+.flex-direction-nav a:before,
+.team-title h3 a:hover,
+.team-social-links li a:hover,
+.contact-info .mail a:hover,
+.portfolio-with-title .portfolio-title h2 a:hover, 
+.portfolio-with-title .portfolio-title p a:hover {
+    color: #ff7800 !important;  /*theme primary color*/
+}
+
+.brand-bg,
+.brand-hover:hover {
+    background-color: #ff7800 !important; /*theme primary background color*/
+}
+.brand-bg.darken-2 {
+    background-color: #f97704 !important; 
+}
+.brand-bg.darken-3 {
+    background-color: #f27200 !important; 
+}
+.brand-dark {
+    color: #db6803;
+}
+
+
+
+/* ======== Navigation ============ */
+.top-bar .social-top a i {
+    color: #fff;
+}
+
+.menuzord .menuzord-menu>li.active>a, 
+.menuzord .menuzord-menu>li.active>a>i, 
+.menuzord .menuzord-menu>li:hover>a, 
+.menuzord .menuzord-menu>li:hover>a>i {
+    color: #ff7800 !important;
+}
+
+.menuzord-menu ul.dropdown li:hover>a, 
+.menuzord-menu ul.dropdown li.active>a, 
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a {
+    color: #ff7800;
+}
+
+.menuzord-menu ul.dropdown li >a::before, 
+.menuzord-menu>li>.megamenu .megamenu-row li >a::before {
+    background-color: #ff7800;
+}
+
+
+/*logo alignment*/
+@media screen and (max-width: 768px) {
+    .tt-nav.nav-center-align .logo-brand img {
+        height: 60px;
+    }
+}
+
+
+/*logo alignment*/
+@media screen and (max-width: 480px) {
+    .restaurant-cta-wrapper .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+
+
+/*Homepage*/
+.parallax-intro {
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    line-height: 90px;
+}
+.gallery-thumb .flex-control-thumbs img {
+    opacity: 1;
+}
+
+
+/*Portfolio page*/
+.portfolio-wrapper .bg-overlay {
+    background-color: rgba(255, 120, 0, 0.9);
+}
+
+
+/*footer*/
+.footer-four .social-link li a i:hover {
+    color: #e16b03;
+}
+.copy-text, 
+.copy-text a {
+    color: #fff;
+}
+.footer p {
+    color: #eee;
+}
+
+.copy-text a:hover,
+.footer-four .secondary-footer ul li a:hover {
+    color: #7b3a00;
+}
+
+
+
+/*
+background banner images
+------------------------------------------------------------*/
+.rest-banner-1 {
+    background-image: url("../../img/restaurant/banner/rest-banner-1.jpg");  
+}
+.rest-banner-2 {
+    background-image: url("../../img/restaurant/banner/rest-banner-2.jpg");  
+}
+.rest-banner-3 {
+    background-image: url("../../img/restaurant/banner/rest-banner-3.jpg");  
+}
+[class*='rest-banner-'] {
+    background-size: cover !important;
+}

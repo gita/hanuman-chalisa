@@ -1,0 +1,141 @@
+/******************************************
+	File Name: seo.css
+    Template Name: Matrox
+    Created By: TrendyTheme
+    Envato Profile: https://themeforest.net/user/trendytheme
+    Website: http://trendytheme.net
+    Version: 1.3
+    Support: http://trendytheme.net/support
+******************************************/
+
+
+/*button style*/
+.btn {
+	font-size: 14px;
+}
+.btn,
+.btn:hover,
+.btn-large:hover,
+.btn-floating,
+button:focus {
+    background-color: #fa873b;
+}
+
+/* ============= Color Presets ================ */
+.brand-color,
+.brand-icon,
+.search-trigger i:hover,
+.contact-info .mail a:hover,
+.featured-news .entry-title a:hover,
+.featured-news .entry-meta li a:hover, 
+.featured-news .blog-content a.readmore:hover,
+.top-bar .social-top a i:hover,
+.top-bar .topbar-cta a:hover,
+.copy-text,
+.copy-text a:hover,
+.footer-four .secondary-footer ul li a:hover,
+.footer-four .social-link li a i:hover,
+.breadcrumb li a,
+.team-social-links li a:hover,
+.menuzord .menuzord-menu>li.active>a, 
+.menuzord .menuzord-menu>li.active>a>i, 
+.menuzord .menuzord-menu>li:hover>a, 
+.menuzord .menuzord-menu>li:hover>a>i,
+.menuzord-menu ul.dropdown li.active>a, 
+.menuzord-menu ul.dropdown li:hover>a, 
+.menuzord-menu>li>.megamenu .megamenu-row li:hover>a {
+    color: #66bb6a !important;
+}
+
+.brand-bg,
+.brand-hover:hover,
+.brand-bar,
+.brand-filter li:hover, 
+.brand-filter li.active,
+.icon-hover-brand:hover .icon,
+.seo-service .bg-overlay,
+.active-search .search-trigger .search-btn,
+.brand-dot.owl-theme .owl-dots .owl-dot.active span, 
+.brand-dot.owl-theme .owl-dots .owl-dot:hover span,
+.portfolio-wrapper .bg-overlay,
+.pricing-table:hover .brand-hover,
+.package-price,
+.menuzord-menu ul.dropdown li >a::before, 
+.menuzord-menu>li>.megamenu .megamenu-row li >a::before {
+    background-color: #66bb6a !important;
+}
+
+
+
+/*border-bottom-tab*/
+.border-bottom-tab .nav-tabs>li.active>a, 
+.border-bottom-tab .nav-tabs>li.active>a:focus, 
+.border-bottom-tab .nav-tabs>li.active>a:hover, 
+.border-bottom-tab .nav-tabs.nav-justified>.active>a, 
+.border-bottom-tab .nav-tabs.nav-justified>.active>a:focus, 
+.border-bottom-tab .nav-tabs.nav-justified>.active>a:hover {
+    border-bottom: 4px solid #66bb6a!important;
+}
+
+/*team-tab*/
+.team-tab .nav-tabs>li.active>a::before {
+    background: rgba(102, 187, 106, 0.9);
+}
+
+
+/*footer*/
+.footer p {
+    color: #eee;
+}
+
+/*Topbar*/
+.top-bar .social-top a i,
+.copy-text a {
+    color: #fff;
+}
+
+
+/* === Navigation === */
+.menuzord-menu>li {
+    margin-left: 15px;
+}
+.nav-border-bottom .menuzord .menuzord-menu>li.active>a, 
+.nav-border-bottom .menuzord .menuzord-menu>li:hover>a {
+    border-bottom: 3px solid #66bb6a;
+}
+
+
+/* Form Style */
+input[type=text]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), 
+input[type=email]:focus:not([readonly]), 
+input[type=url]:focus:not([readonly]), 
+input[type=time]:focus:not([readonly]), 
+input[type=date]:focus:not([readonly]), 
+input[type=datetime-local]:focus:not([readonly]), 
+input[type=tel]:focus:not([readonly]), 
+input[type=number]:focus:not([readonly]), 
+input[type=search]:focus:not([readonly]), 
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #66bb6a;
+    box-shadow: 0 1px 0 0 #66bb6a; 
+}
+
+input[type=text]:focus:not([readonly]) + label, 
+input[type=password]:focus:not([readonly]) + label, 
+input[type=email]:focus:not([readonly]) + label, 
+input[type=url]:focus:not([readonly]) + label, 
+input[type=time]:focus:not([readonly]) + label, 
+input[type=date]:focus:not([readonly]) + label, 
+input[type=datetime-local]:focus:not([readonly]) + label, 
+input[type=tel]:focus:not([readonly]) + label, 
+input[type=number]:focus:not([readonly]) + label, 
+input[type=search]:focus:not([readonly]) + label, 
+textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: #66bb6a !important; 
+}
+
+
+.seo-banner-1 {
+    background-image: url("../../img/seo/seo-banner-1.jpg");
+}
