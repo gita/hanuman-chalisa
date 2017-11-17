@@ -145,15 +145,6 @@
 
     <body id="top">
 
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=145393166088568';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
           <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
@@ -290,20 +281,21 @@
             <div id="wrapperhanuman">
                 <audio src="../audio/Shree_Hanuman_Chalisa.mp3" preload="metadata" controls></audio>
                 <div style="text-align: center">
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
                 <a class="waves-effect waves-circle waves-light btn-floating btn-large amber darken-4" href="../audio/Shree_Hanuman_Chalisa.mp3" download>
                         <i class="material-icons">&#xE2C4;</i>
                 </a>
                 </div>
             </div>
 
-        <hr class="mb-20">
+<!--         <hr class="mb-20">
 
             <div class="row">
               <div class="col-md-8 col-md-offset-2 col-xs-12 col-sm-12 col-lg-8" align="center">
                 <h4 align="center">Like Us on Facebook for daily Hanuman pictures, bhajans, stories and more...</h4>
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fshrihanuman%2F&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=145393166088568" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
               </div>
-            </div>
+            </div> -->
 
             </div><!-- /.container -->
         </div>
@@ -520,6 +512,15 @@
           });
         });
         </script>
+        <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=145393166088568';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
 
     </body>
   
