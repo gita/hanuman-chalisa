@@ -1,24 +1,24 @@
 {
  "items": [
     {
-     "title": "Hanuman Bhajans Download",
+     "title": "Why Worship Hanuman",
      "thumbnail": "img/hanumanchalisa.jpg",
-     "url": "/samples_templates/news_article/preview"
+     "url": "../why-worship-hanuman/"
    },
    {
-     "title": "Hanuman Chalisa in Hindi (हनुमान चालीसा)",
-     "thumbnail": "img/Hanuman_1.jpg",
-     "url": "/samples_templates/product/preview"
-   },
-   {
-     "title": "Hanuman Chalisa in English",
+     "title": "How to Worship Hanuman",
      "thumbnail": "img/Hanuman_3.jpg",
-     "url": "/samples_templates/recipe/preview"
+     "url": "../how-to-worship-hanuman/"
    },
    {
-     "title": "Hanuman Chalisa in English (With Meaning)",
-     "thumbnail": "img/Hanuman_5.jpg",
-     "url": "/samples_templates/news_article/preview"
+     "title": "Hanuman Incarnation of Shiva",
+     "thumbnail": "img/Hanuman_1.jpg",
+     "url": "../hanuman-incarnation-of-shiva/"
+   },
+   {
+     "title": "Hanuman Chalisa",
+     "thumbnail": "img/Hanuman_11.jpg",
+     "url": "../hanuman-chalisa/"
    }
  ]
 }
