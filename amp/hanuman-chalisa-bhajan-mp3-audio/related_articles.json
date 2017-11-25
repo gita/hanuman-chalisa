@@ -3,22 +3,22 @@
     {
      "title": "Hanuman Bhajans Download",
      "thumbnail": "img/hanumanchalisa.jpg",
-     "url": "../hanuman-bhajans-download/"
+     "url": "/samples_templates/news_article/preview"
    },
    {
      "title": "Hanuman Chalisa in Hindi (हनुमान चालीसा)",
      "thumbnail": "img/Hanuman_1.jpg",
-     "url": "../hanuman-chalisa-in-hindi/"
+     "url": "/samples_templates/product/preview"
    },
    {
      "title": "Hanuman Chalisa in English",
      "thumbnail": "img/Hanuman_3.jpg",
-     "url": "../shri-hanuman-chalisa-in-english/"
+     "url": "/samples_templates/recipe/preview"
    },
    {
      "title": "Hanuman Chalisa in English (With Meaning)",
      "thumbnail": "img/Hanuman_5.jpg",
-     "url": "../hanuman-chalisa-english-with-meaning/"
+     "url": "/samples_templates/news_article/preview"
    }
  ]
 }
