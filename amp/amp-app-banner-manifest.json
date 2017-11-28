@@ -1,7 +1,7 @@
 {
   "name": "Hanuman Chalisa",
   "short_name": "Hanuman Chalisa",
-  "description": "Read & Listen Hanuman Chalisa right on your phone.",
+  "description": "Hanuman Chalisa right on your phone.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#F57C00",
