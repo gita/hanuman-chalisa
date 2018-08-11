@@ -57,7 +57,10 @@
         <link rel="stylesheet" href="../css/hanuman.css" />
         <link rel="stylesheet" href="../css/audioplayer.css" />
         <link rel="stylesheet" href="../hanuman.css">
-        <link rel="stylesheet" type="text/css" href="../radhakrishna.css">
+        <style>
+          body{margin:0}a img{border:0}::-moz-selection{background-color:#FFC107;color:#fff}::selection{background-color:#FFC107;color:#fff}.android-header .mdl-menu__container{z-index:50;margin:0!important}.android-mobile-title{display:none!important}.android-logo-image{height:28px;width:140px}.android-header .material-icons{color:#FEC!important}.android-header .mdl-layout__drawer-button{background:0 0;color:#767777}.android-header .mdl-navigation__link{color:#fff;font-weight:700;font-size:14px}.android-navigation-container{direction:rtl;order:1;width:500px;transition:opacity .2s cubic-bezier(.4,0,.2,1),width .2s cubic-bezier(.4,0,.2,1)}.android-navigation{direction:ltr;justify-content:flex-end;width:800px}.android-search-box.is-focused+.android-navigation-container{opacity:0;width:100px}.android-navigation .mdl-navigation__link{display:inline-block;height:60px;line-height:68px;background-color:transparent!important;border-bottom:4px solid transparent}.android-navigation .mdl-navigation__link:hover{border-bottom:4px solid #FFC107}.android-drawer{border-right:none}.android-drawer-separator{height:1px;background-color:#dcdcdc;margin:8px 0}.android-drawer .mdl-navigation__link.mdl-navigation__link{font-size:14px;color:#757575}.android-drawer span.mdl-navigation__link.mdl-navigation__link{color:#ff8f00}.android-drawer .mdl-layout-title{position:relative;background:#ff6f00;height:160px}.android-drawer .android-logo-image{position:absolute;bottom:16px}.logo-font{font-family:Roboto,Helvetica,Arial,sans-serif;line-height:1;color:#767777;font-weight:500}.android-link-menu:hover{cursor:pointer}@media (max-width:900px){.android-navigation-container{display:none}.android-title{display:none!important}.android-mobile-title{display:block!important;position:absolute;left:calc(50% - 70px);top:12px;transition:opacity .2s cubic-bezier(.4,0,.2,1)}.android-search-box.is-focused+.android-navigation-container+.android-mobile-title,.android.android-search-box.is-focused~.android-mobile-title{opacity:0}}
+          .dialog-container,.loading-container{position:absolute;top:0;right:0;bottom:0;left:0;overflow:scroll;background:rgba(0,0,0,.4);z-index:9999;opacity:0;-webkit-transition:opacity .4s ease-in;-moz-transition:opacity .4s ease-in;transition:opacity .4s ease-in}.dialog-container>div{position:relative;width:90%;max-width:500px;min-height:25px;margin:10% auto;z-index:99999;padding:16px 16px 0}.dialog-button-bar{text-align:right;margin-top:8px}.loading-container>div{position:relative;width:50px;height:50px;margin:10% auto;z-index:99999}.loading-container>div>div{width:100%;height:100%}
+        </style>
         <link rel="stylesheet" type="text/css" href="../hanumanchalisa.css">
 
         <script type="application/ld+json">
@@ -414,15 +417,15 @@
         <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="../assets/materialize/js/materialize.min.js"></script>
         <script src="../assets/js/menuzord.js"></script>
-        <script src="../assets/js/bootstrap-tabcollapse.min.js"></script>
-        <script src="../assets/js/jquery.easing.min.js"></script>
-        <script src="../assets/js/jquery.sticky.min.js"></script>
-        <script src="../assets/js/jquery.stellar.min.js"></script>
+        <!-- <script src="../assets/js/bootstrap-tabcollapse.min.js"></script> -->
+        <!-- <script src="../assets/js/jquery.easing.min.js"></script> -->
+        <!-- <script src="../assets/js/jquery.sticky.min.js"></script> -->
+        <!-- <script src="../assets/js/jquery.stellar.min.js"></script> -->
         <script src="../assets/js/scripts.js"></script>
         <script src="../js/audioplayer.js"></script>
         <script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
         <script defer src="../hanuman.js"></script>
-        <script type="text/javascript" src="../hanumanchalisa.js"></script>
+        <script>function showLoading(){$(".loading-container").remove(),$('<div id="orrsLoader" class="loading-container"><div><div class="mdl-spinner mdl-js-spinner is-active"></div></div></div>').appendTo("body"),componentHandler.upgradeElements($(".mdl-spinner").get()),setTimeout(function(){$("#orrsLoader").css({opacity:1})},1)}function hideLoading(){$("#orrsLoader").css({opacity:0}),setTimeout(function(){$("#orrsLoader").remove()},400)}function showDialog(e){(e=$.extend({id:"orrsDiag",title:null,text:null,neutral:!1,negative:!1,positive:!1,cancelable:!0,contentStyle:null,onLoaded:!1,onHidden:!1,hideOther:!0},e)).hideOther&&($(".dialog-container").remove(),$(document).unbind("keyup.dialog")),$('<div id="'+e.id+'" class="dialog-container"><div class="mdl-card mdl-shadow--16dp" id="'+e.id+'_content"></div></div>').appendTo("body");var n=$("#"+e.id),i=n.find(".mdl-card");if(null!=e.contentStyle&&i.css(e.contentStyle),null!=e.title&&$("<h5>"+e.title+"</h5>").appendTo(i),null!=e.text&&$("<p>"+e.text+"</p>").appendTo(i),e.neutral||e.negative||e.positive){var t=$('<div class="mdl-card__actions dialog-button-bar"></div>');if(e.neutral){e.neutral=$.extend({id:"neutral",title:"Neutral",onClick:null},e.neutral);var o=$('<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="'+e.neutral.id+'">'+e.neutral.title+"</button>");o.click(function(i){i.preventDefault(),null!=e.neutral.onClick&&e.neutral.onClick(i)||hideDialog(n,e.onHidden)}),o.appendTo(t)}if(e.negative){e.negative=$.extend({id:"negative",title:"Cancel",onClick:null},e.negative);var d=$('<button class="mdl-button mdl-js-button mdl-js-ripple-effect" id="'+e.negative.id+'">'+e.negative.title+"</button>");d.click(function(i){i.preventDefault(),null!=e.negative.onClick&&e.negative.onClick(i)||hideDialog(n,e.onHidden)}),d.appendTo(t)}if(e.positive){e.positive=$.extend({id:"positive",title:"OK",onClick:null},e.positive);var l=$('<button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="'+e.positive.id+'">'+e.positive.title+"</button>");l.click(function(i){i.preventDefault(),null!=e.positive.onClick&&e.positive.onClick(i)||hideDialog(n,e.onHidden)}),l.appendTo(t)}t.appendTo(i)}componentHandler.upgradeDom(),e.cancelable&&(n.click(function(){hideDialog(n,e.onHidden)}),$(document).bind("keyup.dialog",function(i){27==i.which&&hideDialog(n,e.onHidden)}),i.click(function(e){e.stopPropagation()})),setTimeout(function(){n.css({opacity:1}),e.onLoaded&&e.onLoaded()},1)}function hideDialog(e,n){$(document).unbind("keyup.dialog"),e.css({opacity:0}),setTimeout(function(){e.remove(),n&&n()},400)</script>
         <style>
         .rotate {
             -webkit-transform: rotate(180deg);
@@ -548,4 +551,5 @@
         </script>
 
     <!-- <script type="text/javascript"> var infolinks_pid = 3065948; var infolinks_wsid = 1; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script> </body> -->
+    
 </html>
