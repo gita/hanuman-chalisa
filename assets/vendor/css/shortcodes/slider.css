@@ -1,0 +1,69 @@
+.tp-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.tp-overlay.purple-overlay {
+  background-color: rgba(47, 30, 52, 0.75);
+}
+.rev-heading-intro {
+  font: normal 42px "Raleway", sans-serif;
+}
+.rev-heading {
+  font: normal 60px "Raleway", sans-serif;
+}
+.rev-subheading {
+  font: normal 16px/1.5 "Raleway", sans-serif;
+}
+.rev-btn .btn {
+  height: auto;
+}
+.btn-download.app-download {
+  color: #03a9f4;
+  background-color: #fff;
+  height: auto;
+}
+.btn-download.app-download:focus,
+.btn-download.app-download:hover {
+  color: #fff;
+  background-color: #03a9f4;
+}
+.btn-download.book-download {
+  color: #f44336;
+  background: #fff;
+  height: auto;
+}
+.btn-download.book-download:focus,
+.btn-download.book-download:hover {
+  color: #fff;
+  background: #f44336;
+}
+.btn-download.app-download i,
+.btn-download.book-download i {
+  position: relative;
+  top: -5px;
+  line-height: 35px;
+}
+.btn-download.app-download span,
+.btn-download.book-download span {
+  display: inline-block !important;
+}
+.tp-caption.Newspaper-Title,
+.Newspaper-Title,
+.tp-caption.Newspaper-Subtitle,
+.Newspaper-Subtitle,
+.erinyen .tp-tab-desc,
+.erinyen .tp-tab-title {
+  font-family: "Raleway", sans-serif !important;
+}
+.erinyen .tp-tab-title {
+  color: #03a9f4 !important;
+}

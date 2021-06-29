@@ -1,19 +1,19 @@
 {
- "items": [
+  "items": [
     {
-     "title": "About Hanuman",
-     "thumbnail": "img/hanumanchalisa.jpg",
-     "url": "../who-is-hanuman/"
-   },
-   {
-     "title": "Why Worship Hanuman",
-     "thumbnail": "img/Hanuman_3.jpg",
-     "url": "../why-worship-hanuman/"
-   },
-   {
-     "title": "Hanuman Incarnation Of Shiva",
-     "thumbnail": "img/Hanuman_1.jpg",
-     "url": "../hanuman-incarnation-of-shiva/"
-   }
- ]
+      "title": "About Hanuman",
+      "thumbnail": "img/hanumanchalisa.jpg",
+      "url": "../who-is-hanuman/"
+    },
+    {
+      "title": "Why Worship Hanuman",
+      "thumbnail": "img/Hanuman_3.jpg",
+      "url": "../why-worship-hanuman/"
+    },
+    {
+      "title": "Hanuman Incarnation Of Shiva",
+      "thumbnail": "img/Hanuman_1.jpg",
+      "url": "../hanuman-incarnation-of-shiva/"
+    }
+  ]
 }

@@ -1,0 +1,314 @@
+.login-wrapper {
+  position: relative;
+  max-width: 460px;
+  width: 100%;
+  margin: 0 auto 100px;
+}
+.login-wrapper.active .card-wrapper:first-child {
+  background: #f2f2f2;
+  margin: 0 15px;
+}
+.login-wrapper.active .card-wrapper:nth-child(2) {
+  background: #fbfbfb;
+  margin: 0 10px;
+}
+.login-wrapper.active .card-wrapper.alt {
+  top: 20px;
+  right: 0;
+  width: 100%;
+  min-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 60px 0 40px;
+  overflow: hidden;
+}
+.login-wrapper.active .card-wrapper.alt .toggle {
+  position: absolute;
+  top: 40px;
+  right: -70px;
+  box-shadow: none;
+  -webkit-transform: scale(12);
+  transform: scale(12);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.login-wrapper.active .card-wrapper.alt .toggle:before {
+  content: "";
+}
+.login-wrapper.active .card-wrapper.alt .title,
+.login-wrapper.active .card-wrapper.alt .input-container,
+.login-wrapper.active .card-wrapper.alt .button-container {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.login-wrapper.active .card-wrapper.alt .title {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.login-wrapper.active .card-wrapper.alt .input-container {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+.login-wrapper.active .card-wrapper.alt .input-container:nth-child(2) {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.login-wrapper.active .card-wrapper.alt .input-container:nth-child(3) {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+.login-wrapper.active .card-wrapper.alt .button-container {
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+}
+.card-wrapper {
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.card-wrapper:first-child {
+  background: #fcfcfc;
+  height: 10px;
+  border-radius: 5px 5px 0 0;
+  margin: 0 10px;
+  padding: 0;
+}
+.card-wrapper .title {
+  position: relative;
+  z-index: 1;
+  border-left: 5px solid #03a9f4;
+  margin: 0 0 35px;
+  padding: 10px 0 10px 50px;
+  color: #03a9f4;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.card-wrapper .input-container {
+  position: relative;
+  margin: 0 60px 50px;
+}
+.card-wrapper .input-container input {
+  outline: none;
+  z-index: 1;
+  position: relative;
+  background: none;
+  width: 100%;
+  height: 60px;
+  border: 0;
+  color: #212121;
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-wrapper .input-container input:focus ~ label {
+  color: #9d9d9d;
+  -webkit-transform: translate(-12%, -50%) scale(0.75);
+  transform: translate(-12%, -50%) scale(0.75);
+}
+.card-wrapper .input-container input:focus ~ .bar:before,
+.card-wrapper .input-container input:focus ~ .bar:after {
+  width: 50%;
+}
+.card-wrapper .input-container input:valid ~ label {
+  color: #9d9d9d;
+  -webkit-transform: translate(-12%, -50%) scale(0.75);
+  transform: translate(-12%, -50%) scale(0.75);
+}
+.card-wrapper .input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #757575;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 60px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.card-wrapper .input-container .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #757575;
+  width: 100%;
+  height: 1px;
+}
+.card-wrapper .input-container .bar:before,
+.card-wrapper .input-container .bar:after {
+  content: "";
+  position: absolute;
+  background: #03a9f4;
+  width: 0;
+  height: 2px;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+.card-wrapper .input-container .bar:before {
+  left: 50%;
+}
+.card-wrapper .input-container .bar:after {
+  right: 50%;
+}
+.card-wrapper .button-container {
+  margin: 0 60px;
+  text-align: center;
+}
+.card-wrapper .footer {
+  margin: 40px 0 0;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+.card-wrapper .footer a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.card-wrapper .footer a:hover {
+  color: #03a9f4;
+}
+.card-wrapper.alt {
+  position: absolute;
+  top: 40px;
+  right: -70px;
+  z-index: 10;
+  width: 140px;
+  height: 140px;
+  background: none;
+  border-radius: 100%;
+  box-shadow: none;
+  padding: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.card-wrapper.alt .toggle {
+  position: relative;
+  background: #ed2553;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+@media screen and (max-width: 550px) {
+  .card-wrapper.alt .toggle {
+    width: 80px;
+    height: 80px;
+    font-size: 34px;
+    line-height: 80px;
+  }
+  .login-wrapper.active .card-wrapper.alt .toggle {
+    -webkit-transform: scale(18);
+    transform: scale(18);
+  }
+}
+.card-wrapper.alt .toggle:before {
+  content: "\f040";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.card-wrapper.alt .title,
+.card-wrapper.alt .input-container,
+.card-wrapper.alt .button-container {
+  left: 100px;
+  opacity: 0;
+  visibility: hidden;
+}
+.card-wrapper.alt .title {
+  position: relative;
+  border-color: #fff;
+  color: #fff;
+}
+.card-wrapper.alt .title .close {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  display: inline;
+  color: #fff;
+  font-size: 58px;
+  font-weight: 400;
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}
+@media screen and (max-width: 450px) {
+  .card-wrapper.alt .title .close {
+    top: -8px;
+    right: 20px;
+  }
+}
+.card-wrapper.alt .title .close:before {
+  content: "\00d7";
+}
+.card-wrapper.alt .input-container input {
+  color: #fff;
+}
+.card-wrapper.alt .input-container input:focus ~ label {
+  color: #fff !important;
+}
+.card-wrapper.alt .input-container input:focus ~ .bar:before,
+.card-wrapper.alt .input-container input:focus ~ .bar:after {
+  background: #fff;
+}
+.card-wrapper.alt .input-container input:valid ~ label {
+  color: #fff;
+}
+.card-wrapper.alt .input-container label {
+  color: rgba(255, 255, 255, 0.8);
+}
+.card-wrapper.alt .input-container .bar {
+  background: rgba(255, 255, 255, 0.8);
+}
+.card-wrapper.alt .button-container a.btn {
+  position: relative;
+  z-index: 10;
+}
+.login-wrapper input[type="text"]:focus:not([readonly]),
+.login-wrapper input[type="password"]:focus:not([readonly]) {
+  border-bottom: 0;
+  box-shadow: none;
+}
+.login-wrapper input[type="text"],
+.login-wrapper input[type="password"] {
+  margin: 0;
+}
+.login-wrapper .btn {
+  height: 60px;
+  font-size: 18px;
+}
+.login-wrapper .btn-lg {
+  padding: 17px 38px;
+}
+@-webkit-keyframes "buttonFadeInUp" {
+  0% {
+    bottom: 30px;
+    opacity: 0;
+  }
+}
+@keyframes "buttonFadeInUp" {
+  0% {
+    bottom: 30px;
+    opacity: 0;
+  }
+}

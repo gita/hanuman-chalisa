@@ -1,0 +1,75 @@
+.pricing-table {
+  margin-bottom: 30px;
+}
+.table-header {
+  padding: 40px 30px 0;
+  margin-bottom: 7px;
+  color: #666;
+}
+.package-name {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+.package-price {
+  width: 112px;
+  height: 112px;
+  background-color: #ed145b;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  top: 40px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.package-price .currency-symbol,
+.package-price .price {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 25px;
+}
+.package-price .currency-code {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+}
+.table-info {
+  padding: 60px 30px;
+}
+.table-info ul {
+  margin: 0;
+}
+.table-info ul li {
+  font-size: 16px;
+  line-height: 40px;
+  color: #666;
+}
+.table-footer {
+  padding: 0 30px 60px;
+}
+.table-header,
+.table-info,
+.table-footer {
+  background-color: #fff;
+}
+.pricing-table:hover .brand-hover {
+  background-color: #03a9f4;
+  color: #fff;
+}
+.pricing-table,
+.table-header,
+.package-price {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.pricing-table:hover,
+.pricing-table:hover .package-price {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
